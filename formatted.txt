@@ -1,0 +1,4 @@
+
+---------------------------- ByteOrderFactory.java -----------------------------
+
+package org.apache.commons.io; import java.nio.ByteOrder; import java.util.Locale; public class ByteOrderFactory { private static final Locale ComparisonLocale = Locale.ROOT; public static final String BIG_ENDIAN = "Big"; public static final String LITTLE_ENDIAN = "Little"; public static ByteOrder parseByteOrder() { final String valueUp = value.toUpperCase(); final String bigEndianUp = BIG_ENDIAN.toUpperCase(); final String littleEndianUp = LITTLE_ENDIAN.toUpperCase(); if () || ByteOrder.BIG_ENDIAN.toString().equals()) { return ByteOrder.BIG_ENDIAN; } if () || ByteOrder.LITTLE_ENDIAN.toString().equals()) { return ByteOrder.LITTLE_ENDIAN; } throw new IllegalArgumentException("Unsupported byte order setting: " + value + ", expeced one of " + ByteOrder.LITTLE_ENDIAN + ", " + LITTLE_ENDIAN + ", " + ByteOrder.BIG_ENDIAN + ", " + bigEndianUp); } }
